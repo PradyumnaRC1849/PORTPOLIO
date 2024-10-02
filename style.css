@@ -1,0 +1,83 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color:aqua;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.contain {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar .logo {
+    font-weight: bolder;
+    font-size: 30px;
+    display: inline-block;
+}
+.nav-links {
+    float: right;
+    list-style: none;
+}
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.nav-links li {
+    color: white;
+    font-size: 1.1rem;
+}
+.nav-links li:hover {
+    color: aqua;
+}
+
+.home, .aboutus, .contact, .game {
+    margin-top: 80px;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background-color: black;
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 40px rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+::selection {
+    background: black;
+    color: aqua;
+}
+.contact a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: aqua;
+    font-weight: 800;
+    text-decoration: none;
+}

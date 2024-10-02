@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="contain">
+            <h1 class="logo"><b><u>Portfolio</u></b></h1>
+            <ul class="nav-links">
+                <li id="a1" style="color:aqua;"><b>HOME</b></li>
+                <li id="a2"><b>ABOUT US</b></li>
+                <li id="a4"><b>MINI GAME</b></li>
+                <li id="a3"><b>CONTACT</b></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home" id="home" style="display:flex;">
+        <h2 style="color: white;">Hello It's me</h2>
+        <h1>Pradyumna Roy Choudhury</h1>
+        <p style="color: white;">and I am a <span style="color: aqua;">computer science engineering</span> student</p>
+    </div>
+
+    <br><br>
+
+    <div class="aboutus" id="about_us" style="display:none;">
+        <h1 style="color: white;">ABOUT <span style="color: aqua;">ME</span></h1>
+        <p style="font-weight: 900; color: white;">My name is <span style="color: aqua;">Pradyumna Roy Choudhury</span> and I am a 1st-year computer science engineering student studying in <span style="color: aqua;">Techno Mains Salt Lake college</span> under <span style="color: aqua;">MAKAUT</span>.</p>
+    </div>
+
+    <div class="contact" id="contact" style="display:none;">
+        <h1 style="color:white;text-decoration:underline solid aqua;">CONTACT US</h1>
+        <p style="font-weight: 900; color: white;">PHONE NUMBER: <span style="color: aqua;">+91-2828282828</span></p>
+        <p style="font-weight: 900; color: white;">EMAIL: <span style="color: aqua;">xyz@gmail.com</span></p>
+        <h3 style="color:white;text-decoration:underline solid aqua;">Follow us on our official social side:</h3>
+        <h4>CLICK ON:  <a href="https://www.youtube.com/@YouTube">YOU TUBE</a></h4>
+        <h4>CLICK ON:  <a href="https://x.com/X">X</a></h4>
+        <h4>CLICK ON:  <a href="https://www.instagram.com/instagram/?hl=en">INSTAGRAM</a></h4>
+    </div>
+
+    <div class="game" id="game" style="display:none;">
+        <h1 style="text-decoration:underline solid white;">GUESS THE NUMBER</h1>
+        <p style="font-weight: 900; color: yellow;">YOUR NUMBER: <span style="color: aqua;" id="yc"></span></p>
+        <p style="font-weight: 900; color: yellow;">COMPUTER'S NUMBER: <span style="color: aqua;" id="cc"></span></p>
+        <p style="font-weight: 900; color: white;">ENTER NUMBER FROM <span style="color: yellow;">1</span> TO <span style="color: aqua;">10</span></p>
+        <p style="font-weight: 900; color: aqua;" id="msg"></p>
+        <p><input type="number" value="0" id="message" style="background-color:black;color:yellow;border:7px solid green;font-weight: bolder;"><button id="btn" style="background-color: orange;color:white;border:7px solid orange;"><b>SUBMIT</b></button></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
